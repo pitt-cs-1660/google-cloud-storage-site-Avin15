@@ -1,11 +1,9 @@
 name: Static Site
 
 on:
-# Test ci --- See https://github.com/Avin15/cs1660-website for grading
-  #push:
-  #  branches: [ "main" ]
-  #pull_request:
-  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+  pull_request:
 
 permissions:
   contents: read
